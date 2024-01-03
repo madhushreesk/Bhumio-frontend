@@ -12,7 +12,7 @@ import {
 } from "@mui/material";
 import SideDrawer from "../utils/SideDrawer";
 
-const EditPatient = () => {
+const SearchPatient = () => {
   return (
     <div>
       <SideDrawer />
@@ -128,4 +128,4 @@ const EditPatient = () => {
   );
 };
 
-export default EditPatient;
+export default SearchPatient;

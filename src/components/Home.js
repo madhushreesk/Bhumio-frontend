@@ -1,4 +1,4 @@
-import { Typography, Button, Container } from "@mui/material";
+import { Button } from "@mui/material";
 import React from "react";
 import wellCare from "../assets/wellCareLogo.png";
 import { Link } from "react-router-dom";
@@ -27,6 +27,19 @@ const Home = () => {
             variant="contained"
           >
             Add Patient
+          </Button>
+        </Link>
+
+        <Link to="/SearchPatient">
+          <Button
+            style={{
+              backgroundColor: "#ca93e4",
+              margin: "15px",
+              paddingLeft: "20px",
+            }}
+            variant="contained"
+          >
+            Search Patient
           </Button>
         </Link>
 

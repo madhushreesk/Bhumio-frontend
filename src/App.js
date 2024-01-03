@@ -2,6 +2,7 @@ import AddPatient from "./components/AddPatient";
 import EditPatient from "./components/EditPatient";
 import Home from "./components/Home";
 import { createBrowserRouter } from "react-router-dom";
+import SearchPatient from "./components/SearchPatient";
 
 function App() {
   return (
@@ -25,6 +26,10 @@ export const appRouter = createBrowserRouter([
   {
     path: "/EditPatient",
     element: <EditPatient />,
+  },
+  {
+    path: "/SearchPatient",
+    element: <SearchPatient />,
   },
 ]);
 
