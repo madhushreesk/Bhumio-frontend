@@ -1,10 +1,11 @@
-import MuiTypography from "./components/MuiTypography";
+import AddPatient from "./components/AddPatient";
+import EditPatient from "./components/EditPatient";
 
 function App() {
   return (
     <div className="App">
-      <h1>Patient details</h1>
-      <MuiTypography />
+      <AddPatient />
+      {/* <EditPatient /> */}
     </div>
   );
 }
