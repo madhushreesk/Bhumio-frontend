@@ -20,6 +20,13 @@ const EditPatient = () => {
       <Card>
         <CardContent>
           <Grid container spacing={1}>
+            <Grid xs={12} item>
+              <TextField
+                label="Search Patient (By First Name, Last Name, Phone, E-Mail, Location, Address)"
+                variant="outlined"
+                fullWidth
+              />
+            </Grid>
             <Grid xs={12} sm={4} item>
               <TextField label="Patient ID" variant="outlined" fullWidth />
             </Grid>
